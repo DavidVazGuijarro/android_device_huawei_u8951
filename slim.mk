@@ -17,7 +17,7 @@
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/slim/config/gsm.mk)
 
-# Inherit some common CM stuff
+# Inherit some common Slim stuff
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
